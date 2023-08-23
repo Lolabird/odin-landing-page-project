@@ -4,7 +4,7 @@ body {
 }
 
 .header-box, .card-box, .quote-box, .cta-box, .footer {
-    padding: 20px 10%;
+    padding: 20px 20%;
 }
 
 .header-box, .footer {
@@ -71,9 +71,8 @@ button {
     background-color: #6d747d;
     width: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex: auto;
+    text-align: center;
 }
 
 .card-box {
