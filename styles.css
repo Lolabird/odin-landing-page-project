@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    font-family: 'Noto Sans Display', sans-serif;
 }
 
-.header-box, .cta-one, .card-box, .quote-box, .cta-box, .footer {
-    padding: 20px;
+.header-box, .card-box, .quote-box, .cta-box, .footer {
+    padding: 20px 10%;
 }
 
 .header-box, .footer {
@@ -29,6 +30,7 @@ ul {
     display: flex;
     padding: 0;
     margin: 0;
+    gap: 10px;
 }
 
 li {
@@ -41,6 +43,13 @@ a {
 
 .cta-one {
     display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+}
+.cta-context {
+    width: 50%;
+    flex: auto;
 }
 
 h1 {
@@ -53,11 +62,26 @@ button {
     background-color: #3882f6;
     color:#f9faf8;
     border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .cta-img {
-    background-color: grey;
+    background-color: #6d747d;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
 }
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 
 h2 {
     color: #1f2937;
@@ -65,25 +89,28 @@ h2 {
     font-size: 36px;
 }
 
-.card-box {
-    display: flex;
-    flex-direction: column;
-}
-
 .multi-card {
     display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.card-text {
+    width: 100px;
 }
 
 .card {
     border: 2px solid #3882f6;
     border-radius: 5px;
+    width: 100px;
+    height: 100px;
 }
 
 .quote-box {
     background-color: #e5e7eb;
     font-size: 36px;
     color: #1f2937;
-    font-weight: 100;
+    font-weight: lighter;
     font-style: italic;
     display: flex;
     flex-direction: column;
@@ -93,6 +120,29 @@ h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-wrapper {
+    background-color: #3882f6;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-button > button{
+    border: 1px solid #e5e7eb;
 }
 
 .footer {
