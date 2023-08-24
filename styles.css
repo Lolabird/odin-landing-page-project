@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Noto Sans Display', sans-serif;
-    height: 100vh;
 }
 
 .header-box, .card-box, .quote-box, .cta-box, .footer {
