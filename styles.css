@@ -144,6 +144,12 @@ h2 {
 
 }
 
+h4 {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 20px;
+}
+
 .cta-button {
     display: flex;
     justify-content: center;
