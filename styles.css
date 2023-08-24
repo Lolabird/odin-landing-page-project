@@ -1,10 +1,11 @@
 body {
     margin: 0;
     font-family: 'Noto Sans Display', sans-serif;
+    min-height: 100vh;
 }
 
 .header-box, .card-box, .quote-box, .cta-box, .footer {
-    padding: 20px 20%;
+    padding: 5% 20%;
 }
 
 .header-box, .footer {
