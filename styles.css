@@ -122,8 +122,9 @@ h2 {
 
 .author {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 18px;
+    align-self: flex-end;
 }
 
 .cta-box {
