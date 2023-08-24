@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 .logo {
@@ -44,11 +45,13 @@ a {
 .cta-one {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
     gap: 20px;
     flex-wrap: wrap;
 }
 .cta-context {
+    flex: 1;
 }
 
 h1 {
@@ -69,14 +72,8 @@ button {
 .cta-img {
     background-color: #6d747d;
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    flex-wrap: nowrap;
-}
-
-.placeholder {
-
+    align-items: center;
     width: 500px;
     height: 200px;
 }
@@ -142,12 +139,15 @@ h2 {
     border-radius: 10px;
     justify-content: space-around;
     flex: auto;
+    flex-wrap: wrap;
+
 }
 
 .cta-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .cta-button > button{
