@@ -8,7 +8,7 @@ body {
     padding: 5% 20%;
 }
 
-.header-box, .footer {
+.header-box, .footer{
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
@@ -166,4 +166,21 @@ h4 {
 .footer {
     align-items: center;
     text-align: center;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    background-color: #0e131a;
+    color: #e5e7eb;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #3882f6;
+}
+
+footer a:hover {
+    text-decoration: none;
 }
